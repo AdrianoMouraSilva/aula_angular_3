@@ -1,0 +1,13 @@
+
+<p>{{nomeProduto()}}</p>
+<p>{{precoProduto()}}</p>
+<img src={{urlImg()}} />
+
+
+<p>{{nome_p()}}</p>
+<p>{{preco_p()}}</p>
+<img [src]="urlImg_p()"/>
+
+<button (click) = "clicado.emit()"
+> Avisar 
+</button>
